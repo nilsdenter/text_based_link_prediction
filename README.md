@@ -3,7 +3,7 @@
 This project contains the data and code used in the paper titled "Forecasting future bigrams and promising patents: 
 Introducing text-based link prediction".
 
-To reproduce our results, first, you need to download all files in the data repository.
+To reproduce our results, first, you need to download all files in the data folder.
 
 Then, the code must be executed in ascending order of the sequence number.
 
