@@ -23,3 +23,9 @@ Finally, the code "07_Future_Bigrams_and_Promising_Patents.py" uses a list of un
 
 # Note: 
 The "STATA_Poisson_regression.txt" can be used to reproduce the statistical assessment of promising patents vs. non-promising patents.
+
+The codes "R1_Train_each_predictor_separately.py" and "R2_Permutation_Importance.py" are not part of the manuscript but were created in the revision process.
+
+The code "R1_Train_each_predictor_separately.py" applies supervised machine learning training and testing to only individual predictors and thus tests the individual predictive power of each predictor.
+
+The code "R2_Permutation_Importance.py" focuses on individual predictors' predictive power, as well. However, it utilizes permutation importance and thus tests to which magnitude the predictive power of the best performing model reduces when the predictors are permuted one-by-one.
