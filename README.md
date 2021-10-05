@@ -1,5 +1,4 @@
-# Forecasting future bigrams and promising patents: 
-# Introducing text-based link prediction
+# Forecasting future bigrams and promising patents: Introducing text-based link prediction
 
 This project contains the data and code used in the paper titled "Forecasting future bigrams and promising patents: 
 Introducing text-based link prediction".
