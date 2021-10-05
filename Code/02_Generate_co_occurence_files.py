@@ -5,12 +5,9 @@ from time import time
 Start = 1
 End = 3
 
-window_size_bigrams = 4
-
-
 for i in range(Start,End+1,1):
     starttime = time()
-    csv_file = "tdm_allyears_wl4_n2_w%i.csv" %(window_size_bigrams)
+    csv_file = "tdm_4years_wl4_n2_w4.csv"
     term_constellation=[]
     vocab = []
     vocab_all = []
@@ -32,7 +29,7 @@ for i in range(Start,End+1,1):
                 else:
                    for k in range(0,int(row[(i-(Start-1))])):
                        term_constellation.append([row[0].split(' ')[0], row[0].split(' ')[1]])
-                   #text_file.write(str(row[0].split(' ')[0]) + ' ' + str(row[0].split(' ')[1]) + '\n')
+              
     
     vocab_all = list(dict.fromkeys(vocab_all))
     vocab_all.sort()
@@ -53,5 +50,5 @@ for i in range(Start,End+1,1):
             
     df = pandas.DataFrame(data=result)
     df = df.reindex(index=df.index.union(vocab), columns= df.columns.union(vocab))
-    pandas.DataFrame(data=df).to_csv("wl4_n2_w%i_t%i_allyears_tf_cooccurence.csv" %(window_size_bigrams,i), sep=";", decimal=",")
+    pandas.DataFrame(data=df).to_csv("wl4_n2_w4_t%i_allyears_tf_cooccurence.csv" %(i), sep=";", decimal=",")
    
