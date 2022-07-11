@@ -1,6 +1,8 @@
 # Forecasting future bigrams and promising patents: Introducing text-based link prediction
 
-This project contains the data and code used in the paper: Denter, Nils M.; Aaldering, Lukas Jan; Caferoglu, Huseyin (2022): Forecasting future bigrams and promising patents: Introducing text-based link prediction. In Foresight ahead-of-print (ahead-of-print). DOI: doi.org/10.1108/fs-03-2021-0078.
+This project contains the data and code used in the paper: 
+
+Denter, Nils M.; Aaldering, Lukas Jan; Caferoglu, Huseyin (2022): Forecasting future bigrams and promising patents: Introducing text-based link prediction. In Foresight ahead-of-print (ahead-of-print). DOI: doi.org/10.1108/fs-03-2021-0078.
 
 https://www.researchgate.net/publication/360187795_Forecasting_future_bigrams_and_promising_patents_introducing_text-based_link_prediction
 
